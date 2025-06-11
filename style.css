@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: rgb(28, 27, 27);
+    text-decoration: none;
+    /* font-family: 'Franklin Gothic Medium'; */}
+
+h1 {
+    font-size: 32px;
+    color: #000;
+    font-weight: unset;}
+
+h2 {
+    font-size: 24px;
+    color: #000;
+    background: rgb(168, 168, 4);}
+
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(168, 168, 4);}
+
+h4 {
+    font-size: 20px;
+    font-weight: unset;}
+
+h5 {
+    font-size: 18px;
+    padding: 0 4px;
+    background: rgb(168, 168, 4);}
+
+.primary-btn {
+    padding: 8px 32px;
+    border-radius: 16px;
+    background: rgb(168, 168, 4);
+}
+
+.primary-btn:hover {
+    background: #000;
+    color: rgb(168, 168, 4);
+    transition: 500ms ease-in;
+}
+
+.secondary-btn {
+    padding: 8px 32px;
+    border-radius: 16px;
+    color: #cecdcd;
+    background: rgb(28, 27, 27);
+    text-align: center;
+}
+
+.secondary-btn:hover {
+    background: #dbdcd6ea;
+    color: rgb(28, 27, 27);
+    transition: 500ms ease-in;
+}
+
+.body {
+    width: 100%;
+    background-color: #dbdcd6ea;
+}
+
+.nav-bar {
+    width: 100%;
+    padding: 8px 16px;
+    background: rgb(28, 27, 27);
+    border-bottom: 1px solid #c7c4c4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 48px;
+}
+
+.nav-links a{
+    color: #cecdcd;
+}
+.nav-links a:hover {
+    color: rgb(100, 100, 100);
+}
+
+.menu-toggle {
+    color: #cecdcd;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+/* End of navigation styling */
+
+.hero {
+    width: 100%;
+    padding: 88px 16px 40px;
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* border: 1px solid ; */
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+    padding-left: 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons button {
+    padding: 8px 32px;
+    border-radius: 16px;
+    background: unset;
+    border: 1px solid rgb(168, 168, 4);
+
+}
+
+.hero-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background: #cecdcd;
+}
+.hero-image:hover {
+    background: #b1b0b0;
+    border: 1px solid rgb(100, 100, 100);
+    transition: 500ms ease-in;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+}
+/* Endo of hero styling */
+
+.packages {
+    width: 100%;
+    /* height: 72px; */
+    padding: 32px;
+    background: rgb(28, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.packages ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.packages ul li {
+    color: #fff;
+}
+/* End of packages styling */
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 16px;
+}
+
+.service-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 32px 0;
+    justify-content: center;    
+}
+
+.service-child {
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    background: #cecdcd;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.service-child img {
+    width: 30px;
+    height: 30px;
+}
+
+.view-btn {
+    padding: 8px 32px;
+    border-radius: 16px;
+    cursor: pointer;
+    border: unset;
+    background: rgb(168, 168, 4);
+}
+
+.view-btn:hover {
+    background: rgb(28, 27, 27);
+    color: #c7c4c4;
+    transition: 400ms ease-in;
+}
+/* End of service styling */
+
+.portfolio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 16px;
+}
+
+.portfolio-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+.portfolio-child {
+    width: 300px;
+    border: 1px solid rgb(28, 27, 27);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolio-child:hover {
+    background: #cecdcd;
+    transition: 300ms ease-in;
+}
+
+.portfolio-child img {
+    width: 32px;
+    height: 32px;
+}
+/* End of portfolio styling */
+
+.testimonial {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 16px;
+}
+
+.testimonial-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    gap: 16px;
+    justify-content: center;
+}
+
+.testimonial-child {
+    width: 300px;
+    height: 320px;
+    border-radius: 8px;
+    background: #cecdcd;
+    padding: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+}
+
+.testimonial-child p {
+    text-align: justify;
+}
+
+.testimonial-child img {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 20px;
+    border: 1px solid rgb(28, 27, 27);
+    background: #dbdcd6ea;
+    position: absolute;
+    top: -24px;
+}
+/* End of testimonial styling */
+
+.footer {
+    width: 100%;
+    padding: 56px 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    background: rgb(28, 27, 27);
+}
+
+.footer-socials {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foot-links {
+    display: flex;
+    align-items: center;
+    color: #cecdcd;
+    font-size: 12px;
+}
+.foot-links:hover {
+    color: rgb(100, 100, 100);
+    transition: 300ms;
+}
+
+.foot-socials {
+    width: 20px;
+    height: 20px;
+}
+
+.whatsapp-chat {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #c7c4c4;
+    border-radius: 24px;
+    position: fixed;
+    right: 16px;
+    bottom: 60px;
+}
+
+/*      Responsive Design      */
+@media (min-width: 1400px) {
+    .nav-links {
+        gap: 96px;
+    }
+    .hero {
+        gap: 120px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .service-container {
+        gap: 60px;
+    }
+    .portfolio-container {
+        gap: 60px;
+    }
+    .testimonial-container {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        background:rgb(28, 27, 27);
+        position: absolute;
+        top: 54px;
+        right: 0px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .nav-links.active {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-bar .primary-btn {
+        display: none;
+    }
+
+    /* .menu-toggle {
+        display: block;
+    } */
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background:rgb(28, 27, 27);
+        position: absolute;
+        top: 54px;
+        right: 0px;
+        width: 100%;
+        padding: 24px;
+    }
+
+    .nav-links.active {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons button {
+        width: 200px;
+        padding: 8px 16px;
+    }
+    .primary-btn {
+        width: 150px;
+        padding: 8px 16px;
+        text-align: center;
+    }
+    .hero {
+        gap: 8px;
+        padding: 88px 16px 16px;
+        justify-content: space-between;
+    }
+    .hero-text {
+        width: 50%;
+    }
+}
+
+@media (max-width: 620px) {
+    ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .hero{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .hero-text {
+        width: unset;
+        align-items: center;
+    }
+    .hero-text {
+        order: 2;
+    }
+    .hero-text ul {
+        flex-direction: unset;
+        gap: 24px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+
+}
